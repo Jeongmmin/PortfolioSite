@@ -439,7 +439,7 @@ body.offcanvas {
 
 .hire {
   padding: 2em;
-  background: #5bb4fd; }
+  background: #71bbf8; }
   .hire h2 {
     line-height: 1.5; }
   .hire .btn-hire {
@@ -621,29 +621,29 @@ body.offcanvas {
   -ms-box-shadow: 0px 0px 56px -8px rgba(0, 0, 0, 0.17);
   -o-box-shadow: 0px 0px 56px -8px rgba(0, 0, 0, 0.17);
   box-shadow: 0px 0px 56px -8px rgba(0, 0, 0, 0.17);
-  border-bottom: 2px solid #f1725c; }
+  border-bottom: 2px solid #057458; }
   .services .icon2 {
     display: block;
     margin-bottom: 20px; }
     .services .icon2 i {
       font-size: 30px;
-      color: #f1725c; }
+      color: #057458; }
   .services h3 {
     font-family: 'IBM Plex Sans KR', sans-serif;
     font-size: 16px;
     font-weight: 500; }
   .services.color-2 {
-    border-bottom: 2px solid #4c7531; }
+    border-bottom: 2px solid #e66b5b; }
     .services.color-2 .icon2 i {
-      color: #4c7531; }
+      color: #e66b5b; }
   .services.color-3 {
-    border-bottom: 2px solid #ffed4b; }
+    border-bottom: 2px solid #1e4a8b; }
     .services.color-3 .icon2 i {
-      color: #ffed4b; }
+      color: #1e4a8b; }
   .services.color-4 {
-    border-bottom: 2px solid #e5cbfd; }
+    border-bottom: 2px solid rgb(120, 78, 238); }
     .services.color-4 .icon2 i {
-      color: #e5cbfd; }
+      color: rgb(120, 78, 238); }
   .services.color-5 {
     border-bottom: 2px solid #2fa499; }
   .services.color-6 {

@@ -372,13 +372,13 @@ body.offcanvas {
   margin: 0;
   padding: 0; }
 
-.colorlib-experience,
-.colorlib-skills,
-.colorlib-education,
+  .colorlib-about,
+  .colorlib-skills,
+  .colorlib-education,
+  .colorlib-experience,
+  .colorlib-work,
 .colorlib-blog,
-.colorlib-work,
-.colorlib-about,
-.colorlib-services,
+/* .colorlib-services, */
 .colorlib-contact {
   padding-top: 4em;
   padding-bottom: 9em;
@@ -386,13 +386,13 @@ body.offcanvas {
   width: 100%;
   display: block; }
   @media screen and (max-width: 768px) {
-    .colorlib-experience,
+    .colorlib-about,
     .colorlib-skills,
     .colorlib-education,
-    .colorlib-blog,
+    .colorlib-experience,
     .colorlib-work,
-    .colorlib-about,
-    .colorlib-services,
+    .colorlib-blog,
+    /* .colorlib-services, */
     .colorlib-contact {
       padding-top: 5em;
       padding-bottom: 8em; } }

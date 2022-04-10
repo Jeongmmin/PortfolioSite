@@ -16,6 +16,7 @@ $brand-color-3: #f9bf3f !default;
 $brand-color-4: #a84cb8 !default;
 $brand-color-5: #2fa499 !default;
 $brand-color-6: #4054b2 !default;
+$brand-color-7: #3178C6 !default;
 
 
 $brand-white: #fff;
@@ -854,7 +855,7 @@ margin-left: -20px;
 	@media screen and(max-width: $screen-sm){
 		margin-bottom: 4em;
 	}
-	.icon{
+	.icon, #icon{
 		position: absolute;
 		top: -20px;
 		left: 0;
@@ -886,7 +887,7 @@ margin-left: -20px;
 			border-width: 30px 50px 0 50px;
 			border-color: $brand-primary transparent transparent transparent;
 		}
-		i{
+		i, #icon{
 			font-size: 30px;
 			color: $brand-white;
 			z-index: 1;
@@ -925,7 +926,7 @@ margin-left: -20px;
 		}
 	}
 	&.color-4{
-		.icon{
+		.icon, #icon{
 			background: $brand-color-4;
 			&:before{
 				border-color: transparent transparent $brand-color-4 transparent;
@@ -1053,6 +1054,15 @@ margin-left: -20px;
 		}
 		span{
 			color: $brand-color-6;
+		}
+	}
+	&.color-7{
+		background: $brand-color-7;
+		&:after{
+			background: $brand-color-7;
+		}
+		span{
+			color: $brand-color-7;
 		}
 	}
 }

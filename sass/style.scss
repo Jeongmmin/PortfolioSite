@@ -420,6 +420,11 @@ figure {
 				padding: 2.5em;
 				position: relative;
 				.desc{
+					width: 100%;
+					display: flex;
+					h1 {
+						display: flex;
+					}
 				}
 				@media screen and (max-width: $screen-sm ) {
 					text-align: center;

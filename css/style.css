@@ -1024,7 +1024,7 @@ body.offcanvas {
         color: #000; }
     @media screen and (max-width: 768px) {
       .project .desc {
-        opacity: 1;
+        opacity: 0;
         background: rgba(0, 0, 0, 0.4); }
         .project .desc h3 {
           font-style: 28px;
@@ -1035,6 +1035,7 @@ body.offcanvas {
           -webkit-transform: translate3d(0, 0, 0);
           transform: translate3d(0, 0, 0); } }
   .project:hover .desc {
+    background-color: #f5bfff;
     opacity: 1; }
     .project:hover .desc h3 {
       -webkit-transform: translate3d(0, 0, 0);

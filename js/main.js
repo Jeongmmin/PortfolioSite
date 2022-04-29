@@ -264,7 +264,7 @@
 
 		$('.sticky-parent').css('height', h);
 
-		$("#sticky_item").stick_in_parent();
+		// $("#sticky_item").stick_in_parent();
 
 	};
 
@@ -308,3 +308,31 @@
 
 
 }());
+
+// // send Message
+// const SendBtn = document.querySelector(".btn-send-message");
+// // console.log(SendBtn);
+// function SendMail() {
+// 	$.ajax({
+// 		type: "POST",
+// 		url: "https://script.google.com/macros/s/AKfycbx6GAqjZsAnV3Ld0JZgYeLGXGOuVbvZ6poBsHA4Lg/exec",
+// 		data: createData(),
+// 		datatype: "json",
+// 		success: function (data, status, xhr) {
+// 			var input = confirm(
+// 				"연락주셔서 감사합니다. 24시간 이내에 꼭 회신드리도록 하겠습니다! 🤗"
+// 			);
+// 			$('#gform input[type="text"]').val("");
+// 			$('#gform input[type="email"]').val("");
+// 			$("#gform textarea").val("");
+// 		},
+// 		error: function (jqXHR, textStatus, errorThrown) {
+// 			console.log("error");
+// 		},
+// 	});
+// }
+
+// SendBtn.addEventListener("click", SendMail);
+$(function(){
+	$("html, body").animate({ scrollTop: 0 }, "slow"); 
+	});
